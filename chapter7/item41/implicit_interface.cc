@@ -1,5 +1,6 @@
 #include <cstdio>
 
+// ImplicitInterface
 class ImplicitInterface {
   public:
     ImplicitInterface() {}
