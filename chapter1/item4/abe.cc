@@ -31,6 +31,14 @@ ABEntry::ABEntry(const std::string& name, const std::string& address,
     numTimesConsulted(0){
 }
 
+//ABEntry::ABEntry(const std::string& name, const std::string& address,
+//                 const std::list<PhoneNumber>& phones) {
+//  theName = name;
+//  theAddress = address;
+//  thePhones = phones;
+//  numTimesConsulted = 0;
+//}
+
 int main() {
   std::list<PhoneNumber> phones;
   phones.push_back(PhoneNumber(std::string("01029406331")));
